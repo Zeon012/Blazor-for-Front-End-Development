@@ -23,3 +23,27 @@ build_property.MSBuildProjectDirectory = C:\Users\mvanwi3\Downloads\Microsoft Fu
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/mvanwi3/Downloads/Microsoft Full Stack/Blazor for Front-End Development/Develop a Comprehensive Blazor Project with Microsoft Copilot/event-card-app/src/App.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXEFwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvanwi3/Downloads/Microsoft Full Stack/Blazor for Front-End Development/Develop a Comprehensive Blazor Project with Microsoft Copilot/event-card-app/src/Components/EventCard.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENvbXBvbmVudHNcRXZlbnRDYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvanwi3/Downloads/Microsoft Full Stack/Blazor for Front-End Development/Develop a Comprehensive Blazor Project with Microsoft Copilot/event-card-app/src/Components/EventDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENvbXBvbmVudHNcRXZlbnREZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvanwi3/Downloads/Microsoft Full Stack/Blazor for Front-End Development/Develop a Comprehensive Blazor Project with Microsoft Copilot/event-card-app/src/Components/EventList.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENvbXBvbmVudHNcRXZlbnRMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvanwi3/Downloads/Microsoft Full Stack/Blazor for Front-End Development/Develop a Comprehensive Blazor Project with Microsoft Copilot/event-card-app/src/Components/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENvbXBvbmVudHNcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mvanwi3/Downloads/Microsoft Full Stack/Blazor for Front-End Development/Develop a Comprehensive Blazor Project with Microsoft Copilot/event-card-app/src/Components/Registration.razor]
+build_metadata.AdditionalFiles.TargetPath = c3JjXENvbXBvbmVudHNcUmVnaXN0cmF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 

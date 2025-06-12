@@ -1,0 +1,32 @@
+@page "/event-card"
+@using event_card_app.Models
+
+<h3>Event Card</h3>
+
+<div>
+    <label for="eventName">Event Name:</label>
+    <input id="eventName" @bind="Event.Name" />
+</div>
+<div>
+    <label for="eventDate">Date:</label>
+    <input id="eventDate" type="date" @bind="Event.Date" />
+</div>
+<div>
+    <label for="eventLocation">Location:</label>
+    <input id="eventLocation" @bind="Event.Location" />
+</div>
+
+<div class="event-card">
+    <h4>@Event.Name</h4>
+    <p>Date: @Event.Date.ToShortDateString()</p>
+    <p>Location: @Event.Location</p>
+</div>
+
+@code {
+    private EventModel Event { get; set; } = new EventModel
+    {
+        Name = "Sample Event",
+        Date = DateTime.Now,
+        Location = "Sample Location"
+    };
+}

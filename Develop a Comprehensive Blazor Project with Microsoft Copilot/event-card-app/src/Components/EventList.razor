@@ -1,0 +1,22 @@
+@page "/events"
+@using event_card_app.Models
+
+<h3>Event List</h3>
+<ul>
+    @foreach (var ev in Events)
+    {
+        <li>
+            <a href="@($"/events/{ev.Id}")">@ev.Name</a> - @ev.Date.ToShortDateString() - @ev.Location
+        </li>
+    }
+</ul>
+<a href="/register">Register for an Event</a>
+
+@code {
+    private List<EventModel> Events = new()
+    {
+        new EventModel { Id = 1, Name = "Tech Conference", Date = DateTime.Now.AddDays(10), Location = "New York" },
+        new EventModel { Id = 2, Name = "Music Festival", Date = DateTime.Now.AddDays(20), Location = "Los Angeles" },
+        new EventModel { Id = 3, Name = "Art Expo", Date = DateTime.Now.AddDays(30), Location = "Chicago" }
+    };
+}
