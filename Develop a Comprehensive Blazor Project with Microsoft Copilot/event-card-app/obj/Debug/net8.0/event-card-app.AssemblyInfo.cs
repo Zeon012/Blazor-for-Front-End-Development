@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("event-card-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99d033553243ca746c5de0a60a29c503cc145af3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7042516e4dd257d4cc20b4858e286305cff3b2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("event-card-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("event-card-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

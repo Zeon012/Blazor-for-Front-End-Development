@@ -1,5 +1,8 @@
 #nullable enable
+<<<<<<< HEAD
 using Microsoft.Extensions.DependencyInjection;
+=======
+>>>>>>> 99d033553243ca746c5de0a60a29c503cc145af3
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using event_card_app;
