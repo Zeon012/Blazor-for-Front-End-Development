@@ -1,17 +1,19 @@
-@page "/events"
+@page "/attendance"
+@using event_card_app.Components
 @using event_card_app.Components.Models
+@inject AttendanceTracker AttendanceTracker
 
-<h3>Event List</h3>
-<ul>
-    @foreach (var ev in Events)
-    {
-        <li>
-            <a href="@($"/events/{ev.Id}")">@ev.Name</a> - @ev.Date.ToShortDateString() - @ev.Location
-        </li>
-    }
-</ul>
-<a href="/register">Register for an Event</a>
-<a href="/attendance">View Attendance</a>
+<h3>Attendance List</h3>
+@foreach (var ev in Events)
+{
+    <h4>@ev.Name</h4>
+    <ul>
+        @foreach (var attendee in AttendanceTracker.GetAttendanceForEvent(ev.Id))
+        {
+            <li>@attendee.Name (@attendee.Email)</li>
+        }
+    </ul>
+}
 
 @code {
     private List<EventModel> Events = new()

@@ -1,0 +1,8 @@
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.csproj.AssemblyReference.cache
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.AssemblyInfoInputs.cache
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.AssemblyInfo.cs
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.csproj.CoreCompileInputs.cache
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mvanwi3\Downloads\Microsoft Full Stack\Blazor for Front-End Development\Develop a Comprehensive Blazor Project with Microsoft Copilot\event-card-app\obj\Debug\net8.0\event-card-app.sourcelink.json
