@@ -1,2 +1,1 @@
-> **Note for Students:**  
-> If you're enrolled in this course, use this repository to follow along with lessons, complete exercises, and review sample code. Make sure to check each module's folder for hands-on labs and additional instructions. If you have questions or run into issues, refer to the [Resources](#resources) section or reach out via the course discussion board.
+>I started with a template made with copilot as requested then went through many revisions and going through the code to fix little issues that the ai itself didnt notice. Once the point was driven through that certain practices it was trying to utilize didnt work I was able to make it make something that actually functioned in the end.
