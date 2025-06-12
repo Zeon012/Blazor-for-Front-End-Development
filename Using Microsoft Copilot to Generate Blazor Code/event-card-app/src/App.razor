@@ -1,0 +1,13 @@
+@namespace event_card_app
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components
+@using event_card_app.Components
+<Router AppAssembly="@typeof(Program).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(event_card_app.Components.MainLayout)" />
+    </Found>
+    <NotFound>
+        <h1>Page not found</h1>
+        <a href="/events">Go to Event List</a>
+    </NotFound>
+</Router>
