@@ -1,0 +1,25 @@
+@page "/attendance"
+@using event_card_app.Components
+@using event_card_app.Components.Models
+@inject AttendanceTracker AttendanceTracker
+
+<h3>Attendance List</h3>
+@foreach (var ev in Events)
+{
+    <h4>@ev.Name</h4>
+    <ul>
+        @foreach (var attendee in AttendanceTracker.GetAttendanceForEvent(ev.Id))
+        {
+            <li>@attendee.Name (@attendee.Email)</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<EventModel> Events = new()
+    {
+        new EventModel { Id = 1, Name = "Tech Conference", Date = DateTime.Now.AddDays(10), Location = "New York" },
+        new EventModel { Id = 2, Name = "Music Festival", Date = DateTime.Now.AddDays(20), Location = "Los Angeles" },
+        new EventModel { Id = 3, Name = "Art Expo", Date = DateTime.Now.AddDays(30), Location = "Chicago" }
+    };
+}

@@ -1,5 +1,5 @@
 @page "/events"
-@using event_card_app.Models
+@using event_card_app.Components.Models
 
 <h3>Event List</h3>
 <ul>
@@ -11,6 +11,7 @@
     }
 </ul>
 <a href="/register">Register for an Event</a>
+<a href="/attendance">View Attendance</a>
 
 @code {
     private List<EventModel> Events = new()

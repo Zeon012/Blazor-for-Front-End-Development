@@ -2,6 +2,16 @@
 @using Microsoft.AspNetCore.Components.Routing
 @using Microsoft.AspNetCore.Components
 @using event_card_app.Components
+
+<div class="app-header">
+    <h1>Welcome to the Event Card App</h1>
+    <nav>
+        <a href="/events">Events</a>
+        <a href="/register">Register</a>
+        <a href="/attendance">Attendance</a>
+    </nav>
+</div>
+
 <Router AppAssembly="@typeof(Program).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(event_card_app.Components.MainLayout)" />

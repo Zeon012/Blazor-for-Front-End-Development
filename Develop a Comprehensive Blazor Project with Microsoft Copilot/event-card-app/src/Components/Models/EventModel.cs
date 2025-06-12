@@ -1,4 +1,5 @@
-namespace event_card_app.Models;
+namespace event_card_app.Components.Models;
+
 using System;
 
 public class EventModel
@@ -8,3 +9,4 @@ public class EventModel
     public DateTime Date { get; set; }
     public string Location { get; set; }
 }
+
